@@ -1,4 +1,6 @@
-# Paste code from StackOverflow search result directly into Sublime Text 2 on Windows :)
+# Paste code from StackOverflow search result directly into Sublime Text 2
+
+Windows compatible :)
 
 
 <img src="http://azac.pl/out.gif" width="400"/>
