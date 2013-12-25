@@ -10,7 +10,7 @@ class HowdoiDirectCommand(sublime_plugin.TextCommand):
                 if (len(cont)<1):
                 	pass
                 else:        
-	                p = subprocess.Popen("/usr/local/bin/howdoi "+cont,stdout=subprocess.PIPE,stderr=subprocess.PIPE,shell=True)
+	                p = subprocess.Popen("howdoi "+cont,stdout=subprocess.PIPE,stderr=subprocess.PIPE,shell=True)
 	                output, errors = p.communicate()
 
 	                self.view.replace(edit, line, output)
